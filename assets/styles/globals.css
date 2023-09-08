@@ -26,6 +26,10 @@ span {
   font-size: 0.8rem;
 }
 
+.first-page {
+  position: relative;
+}
+
 .header_hero {
   font-weight: 500;
   font-size: 1rem;
@@ -69,12 +73,11 @@ span {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  position: relative;
 }
 
 .water-mark {
   position: absolute;
-  bottom: 1rem;
+  bottom: 0.5rem;
   left: 1rem;
 }
 
@@ -247,7 +250,7 @@ span {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem 1rem;
-  border-radius: 1rem;
+  border-radius: 0.7rem;
   font-weight: 600;
 }
 
@@ -265,9 +268,9 @@ span {
   color: var(--gray-color-1);
 }
 
-@media print {
+/* @media print {
   .main__container {
     margin-left: 0;
     margin-right: 0;
   }
-}
+} */
