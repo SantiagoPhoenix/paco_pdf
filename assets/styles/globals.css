@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'PFBeauSansPro-Reg\ 2';
+  color: var(--gray-color-1);
 }
 
 :root {
@@ -293,6 +294,9 @@ span {
 
 .bottom-section-child1 {
   background-color: var(--red-1);
+}
+
+.bottom-section-child1 p, .bottom-section-child1 h4 {
   color: var(--white);
 }
 
@@ -431,6 +435,83 @@ span {
 .detail-banner-green, 
 .detail-banner-outline-green {
   padding: 0.5rem 1rem 0.5rem;
+}
+
+.bill-page {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem 0;
+  row-gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.bill-page h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0 0.5rem;
+  background-color: var(--gray-color-2);
+  border-radius: 0.5rem;
+}
+
+.bill-list-details {
+  display: flex;
+  column-gap: 3rem;
+}
+
+.bill-list-details__child {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.bill-list-details__child h5 {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.bill-details-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.bill-details-table-row {
+  display: grid;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  column-gap: 0.5rem;
+  font-size: 1rem;
+  justify-items: center;
+  text-align: center;
+  grid-template-columns: 1fr 2fr repeat(6, 1fr);
+}
+
+.bill-details-table-row__head {
+  font-weight: 600;
+  background-color: var(--gray-color-2);
+}
+
+
+.bill-details-table-row_cld:nth-child(2n), .bill-details-table_page-successfull:nth-child(2n) {
+  background-color: var(--gray-color-2);
+}
+
+.bill-details-table-row_cld h5 {
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.bill-details-table-row_cld span {
+  font-weight: 600;
+  font-size: 0.65rem;
+  align-self: end;
+  text-align: center;
+}
+
+.bill-details-table_page-successfull h5 {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--primary-color);
 }
 
 /* @media print {
