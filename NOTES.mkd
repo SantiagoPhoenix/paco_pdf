@@ -1,1 +1,4 @@
-- marca de awa
+- marca de awa página 2
+- crear la tabla página 1
+-ajustar los bold y font-family donde corresponda
+- verificar que los a y link no filtren información 
