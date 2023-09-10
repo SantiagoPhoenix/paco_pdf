@@ -762,9 +762,15 @@ span {
 
 .termns-contact-child {
   display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
+  column-gap: 1rem;
   margin-top: 1rem;
+}
+
+.termns-contact-child-main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 2rem;
 }
 
 .termns-contact-cld {
@@ -796,6 +802,12 @@ span {
 
 .termns-contact-cld2 {
   display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.termns-contact-cld2 p {
+  font-size: 0.8rem;
 }
 
 .termns-contact-info2 {
@@ -803,7 +815,7 @@ span {
   flex-direction: column;
 }
 
-.termns-contact-info2 h4:nth-child(1) {
+.termns-contact-info2-head h4:first-child {
   color: var(--primary-color);
 }
 
