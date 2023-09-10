@@ -765,6 +765,7 @@ span {
   display: flex;
   column-gap: 1rem;
   margin-top: 1rem;
+  justify-content: space-between;
 }
 
 .termns-contact-child-main {
