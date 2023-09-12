@@ -9,6 +9,7 @@
 :root {
   --gray-color-1: #36393C;
   --gray-color-2: #F2F3F4;
+  --gray-color-3: #BDBEC1;
   --primary-color: #49B748;
   --red-1: #EE1F59;
   --white: #fff;
@@ -824,6 +825,99 @@ span {
 .termns-contact-info2-head h4, .termns-contact-info2 h4 {
   font-size: 0.85rem;
 }
+
+.advice-child2 {
+  display: grid;
+  grid-template-columns: 1fr repeat(6, 2fr);
+  grid-template-rows: 1fr 1rem repeat(2, 2fr);
+}
+
+.child2-item-start, .child2-item-center {
+  display: flex;
+  align-items: center;
+}
+
+.child2-item-center {
+  justify-content: center;
+  text-align: center;
+  border-left: 1px dashed var(--gray-color-1);
+  padding: 0 1rem 0;
+}
+
+.child2-item p, .child2-item-start p, 
+.child2-item-center p, .child2-item-start p {
+  font-weight: 800;
+}
+
+.child2-item-center p span{
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.child2-item-line {
+  border-left: 1px dashed #000;
+  background-color: var(--red-1);
+}
+
+.child2-item-line-gray{
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-left: 0px;
+  background-color: var(--gray-color-3);
+}
+
+.line {
+  border-right: 1px solid #000;
+}
+
+
+.red {
+  border: 1px solid red;
+}
+
+.combine-cell {
+  display: grid;
+  grid-column: 2 / 8;
+  grid-row: 4/ 4;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: end;
+  padding-right: 4rem;
+  padding-left: 3rem;
+  text-align: center;
+  gap: 0.75rem;
+}
+
+.child2-item-cell {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem  0.25rem;
+  row-gap: 0.25rem;
+}
+
+.child2-item-cell p {
+  font-size: 0.7rem;
+}
+
+.child2-item-cell h5 {
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding: 0.25rem;
+}
+
+.child2-item-cell-title-gray {
+  background-color: var(--gray-color-3);
+  color: var(--gray-color-1);
+}
+
+.child2-item-cell-title-red {
+  background-color: var(--red-1);
+  color: var(--white);
+}
+
+
 
 /* @media print {
   .main__container {
