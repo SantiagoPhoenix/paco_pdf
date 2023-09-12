@@ -103,13 +103,13 @@ span {
   gap: 1rem;
 }
 
-.water-mark {
+.water-mark, .water-mark-2 {
   position: absolute;
   bottom: 0.5rem;
   left: 0.5rem;
 }
 
-.water-mark-page {
+.water-mark-page, .water-mark-page-2, .water-mark-page-3 {
   position: absolute;
   bottom: 0rem;
   right: 3.5rem;
@@ -779,6 +779,7 @@ span {
 .termns-contact-page {
   display: flex;
   column-gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .termns-contact-child1, .termns-contact-child2 {
@@ -951,9 +952,30 @@ span {
     left: 1rem;
   }
 
+  .water-mark-2 {
+    position: absolute;
+    bottom: 8em;
+    left: 1rem;
+  }
+
   .water-mark-page {
     position: absolute;
     bottom: 4rem;
     right: 3.5rem;
   } 
+
+  .water-mark-page-2 {
+    position: absolute;
+    bottom: 6rem;
+    right: 3.5rem;
+  } 
+  .water-mark-page-3 {
+    position: absolute;
+    bottom: 7.5rem;
+    right: 3.5rem;
+  } 
+
+  .termns-contact-page {
+    margin-bottom: 0;
+  }
 }
